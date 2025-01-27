@@ -1,0 +1,55 @@
+<!-- Para empezar a programar presionamos "!" y seguidamente "tab"  Cualquier duda es recomendable visitar la pagina https://www.w3schools.com/-->
+<!-- "DOCTYPE" es el formato del documento, "html" es el idioma en el que se encuentra la pagina, "UTF-8" es el conjunto de caracteres, "viewport" es como se ve la pagina, "title" es el titulo de la pagina. -->
+<!-- El contenido de la pagina se escribe el "body". "header" es una etiqueta que no hace nada, sirve para organizar el orden de la pagina. -->
+<!-- Cuando se pone el titulo al poner h1 es el tamano del texto. h1 es la mas grande y h6 la mas pequena -->
+<!-- "nav" es el menu de nabegacion, es un listado a otras paginas web u otros lados, es un contenedor vacio-->
+<!-- "a" es un enlace que el usuario puede pulsar y le lleva a otro sitio. Dentro de la etiqueta de "a" se pone un ATRIBUTO de la etiqueta. "href=" y despues pones un enlace te lleva a esa pagina -->
+<!-- "div" es lo mismo que "header", como tal no hace nada, sirve para ordenar. Es como un comodin que sirve para llamar a todo y va despues del "header" -->
+<!-- "p" sirve para poder hacer un parrafo. "Loreipsum" se pone "Lorem" y luego el numero de palabras que queremos que nos ponga. Es un placeholder te texto. -->
+<!-- "img" Sirve para poner imagens. Es de las pocas etiquetas que no necesita cierre. Se tiene que crear una carpeta aparte para guardar las imagenes. -->
+<!-- "footer" es el pie de pagina. Siempre se suele poner un correo o forma de contacto-->
+<!-- "input" Sirve para poner formularios. "label" Es como un mini titulo o encabezado -->
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Eduardo</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+</head>
+<body>
+    <header>
+        <h1 class="color-verde"> Título de la página web 01</h1>
+        <h1 class="color-rojo cursiva"> Título de la página web 02</h1>
+        <h1 class="color-rosa"> Título de la página web 03</h1>
+        <nav>
+            <a href="https://www.google.com/?hl=es"> Google </a>
+            <a href="https://oncampus.ifp.es/acceder"> Acceso IFP</a>
+        </nav>
+    </header>
+
+    <div>
+        <h3> TÍTULO 02 </h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p class="cursiva"><span id=" palabra-especial">Lorem</span>ipsums</p>
+        <img src="img/Logo.png">
+        <form>
+            <label> CORREO </label>
+            <input type="email" placeholder="email">
+            <label> CONTRASEÑA </label>
+            <input type="password" placeholder="password">
+            <input type="button" value="Enviar">
+        </form>
+    </div>  
+
+    <footer>
+        <nav>
+            <a href="https://playvalorant.com/es-es/"> AVISO LEGAL</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
