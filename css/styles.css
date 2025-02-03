@@ -47,5 +47,12 @@ h3{
 
 #palabra-especial{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red
+}
+
+.error{
+    background-color: red;
+}
+
+.all-good{
+    background-color: green;
 }

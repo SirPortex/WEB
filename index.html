@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Eduardo</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script type="text/javascript" src="js/main.js"></script>
+    <title> Test web </title>
 
 </head>
 <body>
@@ -38,10 +40,11 @@
         <img src="img/Logo.png">
         <form>
             <label> CORREO </label>
-            <input type="email" placeholder="email">
+            <input id="input-mail" type="email" placeholder="email">
             <label> CONTRASEÑA </label>
-            <input type="password" placeholder="password">
-            <input type="button" value="Enviar">
+            <input id="input-pass" type="password" placeholder="password">
+            <input type="button" value="Enviar" onclick="validate(event)"> 
+            <!-- Boton del gmail-->
         </form>
     </div>  
 
